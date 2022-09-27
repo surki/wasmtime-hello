@@ -1,0 +1,1 @@
+Run `make hello.wasm` to generate the js wasm output (which includes quickjs js engine + hello.js) 

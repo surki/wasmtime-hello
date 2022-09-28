@@ -15,3 +15,5 @@
 # vendor/
 
 /main
+zig-cache
+*.pyc

@@ -1,0 +1,10 @@
+# `hello-world` in Zig
+
+```
+$ # Compile to wasm
+$ # Require 1) zig 0.9.1
+$ # Optional wasmtime v1.0.0, if you want to try it
+$ zig build-exe hello-world.zig -target wasm32-wasi
+$ # Try it
+$ wasmtime hello-world.wasm
+```
